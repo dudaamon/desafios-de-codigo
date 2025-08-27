@@ -1,18 +1,36 @@
-### Desafio
-Você é um consultor digital que ajuda empresas a escolherem o melhor plano de serviços na nuvem. Com base nas necessidades do cliente, você deve determinar se eles precisam de um plano basico, intermediario ou avancado. Pronto para o desafio?
+# Desafio: Consultor Digital de Planos em Nuvem
 
-### Entrada
-A entrada deve receber uma string que representa o tipo de serviço que o cliente deseja: "basico", "intermediario", "avancado" ou "premium".
+Você é um **consultor digital** que ajuda empresas a escolherem o melhor plano de serviços na nuvem.  
+Com base nas necessidades do cliente, seu programa deve recomendar o plano adequado.
 
-### Saída
-Deverá retornar uma string com a recomendação do plano: "Recomendado: plano basico", "Recomendado: plano intermediario" ou "Recomendado: plano avancado". Lembrando que o plano "premium", deverá ser indicado o plano avancado.
+## Entrada
 
-### Exemplos
-A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+O programa deve receber uma **string** representando o tipo de serviço desejado:
 
-| **Entrada**   | **Saída**                        |
-| basico	      | Recomendado: plano basico        |
-| intermediario |	Recomendado: plano intermediario |
-| avancado      |	Recomendado: plano avancado      |
+- `basico`
+- `intermediario`
+- `avancado`
+- `premium`
 
-Atenção: É extremamente importante que as entradas e saídas sejam exatamente iguais às descrições do desafio de código.
+## Saída
+
+O programa deve retornar uma string com a recomendação:
+
+- `Recomendado: plano basico`
+- `Recomendado: plano intermediario`
+- `Recomendado: plano avancado`
+
+Observação: caso a entrada seja `premium`, o programa deve recomendar o **plano avancado**.
+
+## Exemplos
+
+| **Entrada**   | **Saída esperada**               |
+| ------------- | -------------------------------- |
+| basico        | Recomendado: plano basico        |
+| intermediario | Recomendado: plano intermediario |
+| avancado      | Recomendado: plano avancado      |
+| premium       | Recomendado: plano avancado      |
+
+---
+
+_Desafio criado para praticar lógica de programação e manipulação de strings em C#. Certifique-se de testar outros cenários além dos exemplos fornecidos._
